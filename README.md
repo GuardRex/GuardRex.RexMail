@@ -1,5 +1,5 @@
 # RexMail
-.NET Core E-mail client library.\r\nCommonly used types:\r\nGuardRex.RexMail.Message
+.NET Core E-mail client library.
 
 ### Ports
 The client works with port 465 or port 587 E-mail servers.
