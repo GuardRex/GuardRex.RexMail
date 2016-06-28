@@ -23,16 +23,12 @@ string serverResult = await GuardRex.RexMail.Message.Send(
 ```
 
 ### Response
-+===================+=====================================================+
-| serverResult Code | Server Response                                     |
-+===================+=====================================================+
-| x000              | The server response was empty                       |
-+-------------------+-----------------------------------------------------+
-| x001              | The server responded with fewer than 3 characters   |
-+-------------------+-----------------------------------------------------+
-| xyyy              | The server responded with a code (yyy) that doesn't |
-|                   | match the success code expected                     |
-+-------------------+-----------------------------------------------------+
+
+| serverResult Code | Server Response                                                                     |
+|:-----------------:| ----------------------------------------------------------------------------------- |
+| x000              | The server response was empty                                                       |
+| x001              | The server responded with fewer than 3 characters                                   |
+| xyyy              | The server responded with a code (yyy) that doesn't match the success code expected |
 
 ### Version History
 Version | Changes Made
