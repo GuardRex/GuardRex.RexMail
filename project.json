@@ -1,0 +1,28 @@
+{
+    "authors": [ "GuardRex Corporation" ],
+    "buildOptions": {
+        "warningsAsErrors": true
+    },
+    "copyright": "Copyright 2016 GuardRex Corporation",
+    "dependencies": {
+        "NETStandard.Library": "1.6.0",
+        "System.Net.Security": "4.0.0"
+    },
+    "description": ".NET Core E-mail client library.\r\nCommonly used types:\r\nGuardRex.RexMail.Message",
+    "frameworks": {
+        "netstandard1.6": {}
+    },
+    "packOptions": {
+        "tags": [
+            "email"
+        ],
+        "iconUrl": "https://rexsite.azureedge.net/www-guardrex-com/nugetlogo.png",
+        "licenseUrl": "https://github.com/GuardRex/GuardRex.RexMail/blob/master/LICENSE.md",
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/GuardRex/GuardRex.RexMail"
+        }
+    },
+    "title": "RexMail",
+    "version": "1.0.0"
+}
